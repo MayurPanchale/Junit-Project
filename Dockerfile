@@ -1,7 +1,9 @@
 # Use an official Maven image as a base
 FROM openjdk:17-alpine
 
-RUN apk update && apk add bash
+# Install bash (if required)
+RUN apk add --no-cache bash
+
 # Set the working directory in the container
 WORKDIR /app
 
