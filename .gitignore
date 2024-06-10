@@ -1,0 +1,13 @@
+# Ignore compiled Java classes
+*.class
+
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
+
+# Ignore Maven specific files
+target/
+
+# Ignore any files or directories generated during testing
+/test-output/
